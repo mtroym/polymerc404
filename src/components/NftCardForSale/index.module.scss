@@ -1,0 +1,52 @@
+.nftCardForSale {
+    border-radius: 8px;
+    // width: 300px;
+    height: 440px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .nftInfo {
+        position: relative;
+        .image {
+            overflow: hidden;
+            cursor: pointer;
+            height: 380px;
+            & img:hover {
+                transform: scale(1.1);
+                transition-duration: .8s;
+            }
+        }
+        .info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            background-color: rgba($color: #0c0101, $alpha: 0.8);
+
+            .name {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &.span {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            } 
+            .like {
+                display: flex;
+                align-items: center;
+            }          
+        }
+    }
+    .action {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}

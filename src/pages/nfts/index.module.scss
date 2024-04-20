@@ -1,0 +1,46 @@
+.nftContainer {
+  padding: 32px 42px;
+  .topInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    .info {
+      display: flex;
+      flex-direction: column;
+      .title {
+        width: 420px;
+        font-size: 42px;
+        font-weight: bold;
+        color: rgb(89, 188, 222);
+      }
+      .action {
+        display: flex;
+				align-items: center;
+				gap: 12px;
+        // row-gap: 12px;
+      }
+    }
+  }
+  .nftTabs {
+    display: flex;
+    gap: 24px;
+  }
+  .buyNftTitle {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+  .nftList {
+    &.hidden {
+      position: absolute;
+      visibility: hidden;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .nftItem {
+      margin-right: 24px;
+      margin-bottom: 24px;
+    }
+  }
+} 

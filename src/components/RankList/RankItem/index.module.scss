@@ -1,0 +1,46 @@
+.rankItem {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 12px;
+    background-color: rgb(34 41 56);
+    &:hover {
+        background-color: rgb(47 54 69);
+    }
+    .left {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        .avatar {
+            margin: 0 24px;
+        }
+        .rank {
+            line-height: 32px;
+            padding: 0 11px;
+            font-size: 16px;
+            background-color: rgb(47 54 69);
+            border-radius: 16px;
+        }
+        .first {
+            background-color: #FAB600;
+        }
+        .second {
+            background-color: #9DA8B0;
+        }
+        .third {
+            background-color: #D97D5E;
+        }
+    }
+    .right {
+        margin-left: 32px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+    .rank {
+        font-size: 24px;
+        color: #fff;
+    }
+}

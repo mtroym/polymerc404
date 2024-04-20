@@ -1,0 +1,57 @@
+{
+	"name": "next-starter-template",
+	"version": "0.1.1",
+	"scripts": {
+		"dev": "cross-env-shell DEBUG=$DEBUG next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@lucky-canvas/react": "^0.1.13",
+		"@tanstack/query-sync-storage-persister": "^5.28.13",
+		"@tanstack/react-query": "^5.28.14",
+		"@tanstack/react-query-persist-client": "^5.28.14",
+		"@types/node": "20.12.3",
+		"@types/react": "18.2.74",
+		"@types/react-dom": "18.2.18",
+		"@web3modal/siwe": "^4.1.5",
+		"@web3modal/wagmi": "^4.1.5",
+		"@web3uikit/core": "^1.1.5",
+		"@web3uikit/icons": "^1.1.2",
+		"@web3uikit/web3": "^0.3.2",
+		"axios": "^1.6.8",
+		"classnames": "^2.5.1",
+		"css-loader": "^7.0.0",
+		"eslint": "8.56.0",
+		"eslint-config-next": "13.5.6",
+		"json-loader": "^0.5.7",
+		"next": "13.5.6",
+		"next-auth": "^4.24.7",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"sass": "^1.74.1",
+		"sass-loader": "^14.1.1",
+		"siwe": "^2.1.4",
+		"style-loader": "^3.3.4",
+		"typescript": "5.4.3",
+		"viem": "^2.9.9",
+		"wagmi": "^2.5.19",
+		"@openzeppelin/contracts": "^4.9.6",
+		"dotenv": "^16.4.1",
+		"hardhat-verify": "^1.0.0"
+	},
+	"overrides": {
+		"@parcel/watcher": "2.1.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.19",
+		"cross-env": "^7.0.3",
+		"postcss": "^8.4.38",
+		"tailwindcss": "^3.4.3",
+		"@foundry-rs/hardhat-forge": "^0.1.17",
+		"@nomicfoundation/hardhat-foundry": "^1.1.1",
+		"@nomicfoundation/hardhat-toolbox": "^4.0.0",
+		"hardhat": "^2.19.5"
+	}
+}

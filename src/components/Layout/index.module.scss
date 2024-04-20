@@ -1,0 +1,13 @@
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  .main {
+    margin-top: 100px;
+    // padding: 0 24px;
+    // height: 80vh;
+    // overflow: scroll;
+    // overflow-x: hidden;
+  }
+}

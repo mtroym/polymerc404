@@ -1,0 +1,11 @@
+.funMint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .actions {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+  }
+}
