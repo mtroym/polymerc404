@@ -1,0 +1,7 @@
+{
+    "git.autoRepositoryDetection": false,
+    "git.repositoryScanIgnoredFolders": [
+        "node_modules",
+        "lib"
+    ]
+}
